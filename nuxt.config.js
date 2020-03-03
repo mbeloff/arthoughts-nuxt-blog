@@ -4,7 +4,7 @@ module.exports = {
    */
   head: {
     title: 'arthoughts blog',
-    titleTemplate: '%s | Awesome JS SSR Blog',
+    titleTemplate: '%s | Bob Ross workshops blog | arthoughts',
     meta: [{
         charset: 'utf-8'
       },
@@ -15,7 +15,7 @@ module.exports = {
       {
         hid: 'description',
         name: 'description',
-        content: 'Nuxt.js project'
+        content: 'Bob Ross landscape workshops with a Certified Ross Instructor. Follow us for photos and updates for our classes in Brisbane and on the Gold Coast.'
       }
     ],
     link: [{
