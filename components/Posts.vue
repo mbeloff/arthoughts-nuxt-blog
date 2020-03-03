@@ -119,15 +119,15 @@ header {
   flex-direction: column;
 }
 .masonry-wrapper {
-  padding: 1.5em;
-  max-width: 960px;
+  padding: 1.5em 0;
+  /* max-width: 960px; */
   margin-right: auto;
   margin-left: auto;
 }
 .masonry {
   display: grid;
   grid-template-columns: repeat(1, minmax(100px, 1fr));
-  grid-gap: 10px;
+  grid-gap: 20px;
   grid-auto-rows: 0;
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px) {
@@ -169,7 +169,7 @@ header {
   padding: 1rem 1rem;
 }
 .masonry-description {
-  padding: 1rem;
+  padding: .5rem;
   font-size: 0.9rem;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
