@@ -65,6 +65,13 @@ module.exports = {
       }
     }
   },
+  modules: [
+    // Simple usage
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-138579182-1' || ''
+    }]
+ ],
+
   generate: {
     routes(callback) {
       const posts = require('./posts.json')
