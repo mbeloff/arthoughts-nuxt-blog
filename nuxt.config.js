@@ -42,6 +42,11 @@ module.exports = {
   /*
    ** Build configuration
    */
+  buildModules: [
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-138579182-1'
+    }]
+  ],
   build: {
     /*
      ** Run ESLint on save
