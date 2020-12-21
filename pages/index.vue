@@ -3,7 +3,7 @@
     
     <section class="container-fluid hero-body">
       <div class="container py-5">
-        <p class="bg-dark text-white">blog no longer maintained. Follow <a href="https://www.facebook.com/BobRossCRI">our facebook</a> instead</p>
+        <p class="bg-dark text-white p-2 rounded">blog no longer maintained. Follow <a href="https://www.facebook.com/BobRossCRI">our facebook</a> instead</p>
       </div>
     </section>
 
